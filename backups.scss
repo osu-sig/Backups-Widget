@@ -1,0 +1,84 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$label-color:       rgba(255, 255, 255, 1);
+$value-color:       rgba(255, 255, 255, 1);
+$background-color:  #12b0c5;
+
+
+// ----------------------------------------------------------------------------
+// Widget styles
+// ----------------------------------------------------------------------------
+
+
+.widget-backups {
+  
+  background-color:#96bf48;
+  max-width: 300px;
+  // Change the font-size to resize everything in the widget
+  font-size: 21px;
+  
+  .title {
+    color: $title-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color:rgba(0, 0, 0, 0.3);
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .value {
+    font-weight: 600;
+    fill: $value-color;
+    float: right;
+    margin-left: 12px;
+  }
+
+  ol, ul {
+    margin: 5px;
+    text-align: left;
+    color: $label-color;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  .label {
+    color: $label-color;
+  }
+
+  .single_value .legend {
+    margin-bottom: -7px;
+    margin-top: 5px;
+    fill: $label-color;
+  }
+  
+  .single_value.first .legend {
+    margin-top: 0px;
+  }
+  
+  .single_value .percent {
+    font-weight: bold;
+  }
+      
+}
