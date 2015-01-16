@@ -24,10 +24,10 @@ used_performance_gb = 8
 total_performance_gb = 13.0
 
 series = [
-  { values: [ { label: "Capacity", value: used_capacity_gb * bytes_in_gibibyte } ], 
+  { values: [ { label: "Capacity", value: used_capacity_gb * bytes_in_gibibyte } ],
     max_value: total_capacity_gb * bytes_in_gibibyte },
-  { values: [ { label: "Performance", value: used_performance_gb * bytes_in_gibibyte } ], 
-    max_value: total_performance_gb * bytes_in_gibibyte } 
+  { values: [ { label: "Performance", value: used_performance_gb * bytes_in_gibibyte } ],
+    max_value: total_performance_gb * bytes_in_gibibyte }
 ]
 
 items = [
